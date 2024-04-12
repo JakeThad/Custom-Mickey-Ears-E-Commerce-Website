@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="custom.css">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="logo img">
+                <a href="index.html" class="Logo-icon">
+                <img src="https://tse4.mm.bing.net/th/id/OIG1.w9KlXYiQVVaEdUCAymws?pid=ImgGn" alt="Logo">
+                </a>
+            </div>
+
+
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productLibrary.html">Products</a></li>
+                    <li><a href="custom.html">Custom Designs</a></li>
+
+                </ul>
+            </nav>
+            <!-- Shopping Cart Icon -->
+            <a href="cart.html" class="cart-icon">
+                <img src="image/Cart.jpg" alt="Shopping Cart" class="cart-img">
+            </a>
+        </div>
+    </header>
+    <div id="container"></div>
+
+    
+
+    <!-- Reference to the local three.js core -->
+    <script type="module" src="/three.module.min.js"></script>
+
+    <!-- Your custom script with defer attribute -->
+    <script type="module" src="/custom.js" defer></script>
+</body>
+</html>
