@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Include SweetAlert2 CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+
+<!-- Include SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <title>Product Page</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product.css">
+    
+    
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="logo img">
+                <a href="index.html" class="Logo-icon">
+                <img src="https://tse4.mm.bing.net/th/id/OIG1.w9KlXYiQVVaEdUCAymws?pid=ImgGn" alt="Logo">
+                </a>
+            </div>
+
+
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productLibrary.html">Products</a></li>
+                    <li><a href="custom.html">Custom Designs</a></li>
+
+                </ul>
+            </nav>
+            <!-- Shopping Cart Icon -->
+            <a href="cart.html" class="cart-icon">
+                <img src="image/Cart.jpg" alt="Shopping Cart" class="cart-img">
+                
+            </a>
+            <div id="cart-items"></div>
+        </div>
+    </header>
+    <!-- Product Details Section -->
+    <section class="product-info-container">
+        <img id="product-image" src="" alt="Product Image">
+        <h2 id="product-name"></h2>
+        <span id="product-price"></span>
+        <button onclick="addToCart()" id="add-to-cart-button" data-product-id="">Add to Cart</button>
+    </section>
+    
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/product.js"></script>
+
+</body>
+
+</html>
