@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and Favicon -->
+    <title>Disney Mickey Ears</title>
+
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Brief description of your website">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="Your Name">
+
+    <!-- External CSS files -->
+    <link rel="stylesheet" href="productLibrary.css">
+    
+    
+
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <!-- Logo -->
+            <div class="logo img">
+                <a href="index.html" class="Logo-icon">
+                <img src="https://tse4.mm.bing.net/th/id/OIG1.w9KlXYiQVVaEdUCAymws?pid=ImgGn" alt="Logo">
+                </a>
+            </div>
+
+
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productLibrary.html">Products</a></li>
+                    <li><a href="custom.html">Custom Designs</a></li>
+
+                </ul>
+            </nav>
+            <!-- Shopping Cart Icon -->
+            <a href="cart.html" class="cart-icon">
+                <img src="image/Cart.jpg" alt="Shopping Cart" class="cart-img">
+        
+            </a>
+        </div>
+    </header>
+    <section class="hero">
+        <!-- Background Image or Video -->
+        <div class="hero-background">
+            <!-- You can use an image or video as the background -->
+            <!-- Example for image: -->
+            <!-- <img src="hero-background.jpg" alt="Hero Background Image"> -->
+
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1>Create Your Own!</h1>
+            <p>With our Magic Ear Creation Tool.</p>
+            <a href="custom.html" class="cta-button">Start Here!</a>
+        </div>
+    </section>
+
+    <section class="product-library">
+        <div class="product-list" id="productList">
+            <!-- Product items will be dynamically added here -->
+        </div>
+
+        <div class="pagination">
+            <button onclick="goToPage('first')">First</button>
+            <button onclick="goToPage('prev')">Previous</button>
+            <span id="currentPage">Page 1</span>
+            <button onclick="goToPage('next')">Next</button>
+            <button onclick="goToPage('last')">Last</button>
+        </div>
+    </section>
+
+
+
+    
+    
+
+    <!-- Rest of HTML content goes here -->
+
+    <!-- JavaScript files or links go here -->
+    
+    <script src="scripts/product.js"></script>
+    <script src="scripts/productLibrary.js"></script>
+    
+    
+</body>
+</html>
